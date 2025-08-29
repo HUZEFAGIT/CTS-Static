@@ -1,0 +1,20 @@
+export default [
+  {id: 1, url: "/assets/images/news/news-1.jpg", date: "Jul 18, 2025", author: "Amara Johnson", title: "Unlocking the Power of AI Healthcare"},
+  {id: 2, url: "/assets/images/news/news-2.jpg", date: "Jun 18, 2025", author: "Noah Kim", title: "The Future of Health: AI-Driven Patient Care"},
+  {id: 3, url: "/assets/images/news/news-3.jpg", date: "Jul 08, 2025", author: "Isabella Rossi", title: "Navigating Healthcare: Your Guide to Asklepios"},
+  {id: 4, url: "/assets/images/news/news-4.jpg", date: "Jun 13, 2025", author: "Liam O'Connor", title: "The Role of AI in Revolutionizing Healthcare"},
+  {id: 5, url: "/assets/images/news/news-5.jpg", date: "Jun 28, 2025", author: "Noah Kim", title: "Unlocking the Power of AI Healthcare"},
+  {id: 6, url: "/assets/images/news/news-6.jpg", date: "Aug 04, 2025", author: "Liam O'Connor", title: "The Future of Health: AI-Driven Patient Care"},
+  {id: 7, url: "/assets/images/news/news-7.jpg", date: "Jun 10, 2025", author: "Elena Ivanova", title: "Navigating Healthcare: Your Guide to Asklepios"},
+  {id: 8, url: "/assets/images/news/news-8.jpg", date: "Jul 13, 2025", author: "Isabella Rossi", title: "The Role of AI in Revolutionizing Healthcare"},
+  {id: 9, url: "/assets/images/news/news-9.jpg", date: "Jun 19, 2025", author: "Liam O'Connor", title: "Unlocking the Power of AI Healthcare"},
+  {id: 10, url: "/assets/images/news/news-10.jpg", date: "Jun 15, 2025", author: "Isabella Rossi", title: "The Future of Health: AI-Driven Patient Care"},
+  {id: 11, url: "/assets/images/news/news-1.jpg", date: "Aug 03, 2025", author: "Akari Mizunashi", title: "Navigating Healthcare: Your Guide to Asklepios"},
+  {id: 12, url: "/assets/images/news/news-2.jpg", date: "Jun 28, 2025", author: "Noah Kim", title: "The Role of AI in Revolutionizing Healthcare"},
+  {id: 13, url: "/assets/images/news/news-3.jpg", date: "Jul 04, 2025", author: "Akari Mizunashi", title: "Unlocking the Power of AI Healthcare"},
+  {id: 14, url: "/assets/images/news/news-4.jpg", date: "Jun 15, 2025", author: "Carlos Herrera", title: "The Future of Health: AI-Driven Patient Care"},
+  {id: 15, url: "/assets/images/news/news-5.jpg", date: "Jul 18, 2025", author: "Noah Kim", title: "Navigating Healthcare: Your Guide to Asklepios"},
+  {id: 16, url: "/assets/images/news/news-6.jpg", date: "Aug 04, 2025", author: "Maya Patel", title: "The Role of AI in Revolutionizing Healthcare"},
+  {id: 17, url: "/assets/images/news/news-7.jpg", date: "Aug 02, 2025", author: "Maya Patel", title: "Unlocking the Power of AI Healthcare"},
+  {id: 18, url: "/assets/images/news/news-8.jpg", date: "Jul 19, 2025", author: "Liam O'Connor", title: "The Future of Health: AI-Driven Patient Care"}
+];
