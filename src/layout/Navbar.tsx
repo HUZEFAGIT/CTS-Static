@@ -19,7 +19,7 @@ const Navbar = () => {
             className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
           >
             <img
-              src="/public/assets/images/logos/CTS.png"
+              src="/assets/images/logos/CTS.png"
               alt="CaretoSure Logo"
               className="h-16 w-auto"
             />

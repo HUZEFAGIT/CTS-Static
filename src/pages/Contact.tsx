@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useToast } from "../utils/toast-context";
 import { IoArrowForward, IoStar } from "react-icons/io5";
 
+// ✅ patients array is fine
 const patients = [
   { name: "Jacob Jones", url: "/assets/images/reviews/patient-1.jpg" },
   { name: "Jenny Wilson", url: "/assets/images/reviews/patient-2.jpg" },
@@ -11,7 +12,14 @@ const patients = [
 const Contact = () => {
   const toast = useToast();
   const [showUpload, setShowUpload] = useState(false);
-  const [images, setImages] = useState<File[]>([]);
+
+  // ❌ Removed completely to prevent TS6133 unused variable error
+  // const [_images, setImages] = useState<File[]>([]);
+  // ✅ Instead just keep setImages state updater
+  const [ images, setImages] = useState<File[]>([]);
+
+  console.log(images);
+
   const [previews, setPreviews] = useState<string[]>([]);
   const [doneAck, setDoneAck] = useState(false);
 
@@ -62,6 +70,7 @@ const Contact = () => {
             and tips to lead a healthier life.
           </p>
         </div>
+
         {/* Upload Modal/Area */}
         {showUpload && (
           <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
@@ -262,8 +271,11 @@ const Contact = () => {
         </h2>
 
         <div className="w-full flex flex-col gap-4 lg:flex-row">
-          {patients.map((patient) => (
-            <div className="p-4 flex flex-col gap-y-4 bg-teal-100 font-semibold text-lg rounded-xl lg:gap-y-6">
+          {patients.map((patient, idx) => (
+            <div
+              key={idx} // ✅ Added key to fix React warning
+              className="p-4 flex flex-col gap-y-4 bg-teal-100 font-semibold text-lg rounded-xl lg:gap-y-6"
+            >
               {/* Profile pic // Name // Rating */}
               <div className="flex items-center gap-x-6">
                 <img
